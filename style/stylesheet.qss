@@ -1,0 +1,17 @@
+QDialog#LoginDialog, #RegisterDialog{
+background-color:rgb(255,255,255);
+}
+
+QLabel {
+    color: black;
+}
+
+QPushButton {
+    color: black;
+    border: 1px solid grey;
+}
+
+QLineEdit {
+    color: black;
+    background-color: white;
+}
