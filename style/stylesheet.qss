@@ -15,3 +15,9 @@ QLineEdit {
     color: black;
     background-color: white;
 }
+#err_tip_label[state='normal']{
+    color: green;
+}
+#err_tip_label[state='err']{
+    color: red;
+}

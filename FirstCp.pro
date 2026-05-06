@@ -8,12 +8,14 @@ CONFIG += c++17
 RC_ICONS = icon.ico
 DESTDIR = ./bin
 SOURCES += \
+    global.cpp \
     logindialog.cpp \
     main.cpp \
     mainwindow.cpp \
     registerdialog.cpp
 
 HEADERS += \
+    global.h \
     logindialog.h \
     mainwindow.h \
     registerdialog.h
