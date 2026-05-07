@@ -1,5 +1,5 @@
 QT += widgets
-
+QT += core gui network
 CONFIG += c++17
 
 # You can make your code fail to compile if it uses deprecated APIs.
@@ -9,6 +9,7 @@ RC_ICONS = icon.ico
 DESTDIR = ./bin
 SOURCES += \
     global.cpp \
+    httpmgr.cpp \
     logindialog.cpp \
     main.cpp \
     mainwindow.cpp \
@@ -16,9 +17,11 @@ SOURCES += \
 
 HEADERS += \
     global.h \
+    httpmgr.h \
     logindialog.h \
     mainwindow.h \
-    registerdialog.h
+    registerdialog.h \
+    singleton.h
 
 FORMS += \
     logindialog.ui \
